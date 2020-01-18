@@ -1,0 +1,25 @@
+{
+  "name": "starter-file",
+  "version": "1.0.0",
+  "description": "starter files for new project with gulp tasks initialized",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannah-saurusrex/starter-file.git"
+  },
+  "author": "Hannah McMahon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hannah-saurusrex/starter-file/issues"
+  },
+  "homepage": "https://github.com/hannah-saurusrex/starter-file#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "normalize.css": "^8.0.1"
+  }
+}
