@@ -1,0 +1,22 @@
+.main {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	grid-template-areas:
+		"intro intro"
+		"content photo"
+		"footer footer";
+}
+
+.main__headline {
+	grid-area: intro;
+}
+
+.main__text {
+	grid-area: content;
+}
+
+.main__photo {
+	grid-area: photo;
+	max-width: 400px;
+}
