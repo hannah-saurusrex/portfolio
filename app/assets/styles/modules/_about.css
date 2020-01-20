@@ -21,7 +21,13 @@
 	line-height: 1.65rem;
 }
 
+.about__link {
+	text-decoration: none;
+	font-weight: 600;
+}
+
 .main__skills {
+	grid-area: skills;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 2rem;
@@ -29,4 +35,5 @@
 
 .about__skill {
 	padding: 8px;
+	font-weight: 600;
 }
