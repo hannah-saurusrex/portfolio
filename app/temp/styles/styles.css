@@ -1,3 +1,6 @@
 @import url(../styles/global/_base.css);
 @import url(../styles/modules/_wrapper.css);
 @import url(../styles/modules/_main.css);
+@import url(../styles/modules/_header.css);
+@import url(../styles/modules/_footer.css);
+@import url(../styles/modules/_nav.css);

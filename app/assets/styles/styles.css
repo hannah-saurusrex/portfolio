@@ -1,3 +1,6 @@
 @import "../styles/global/_base.css";
 @import "../styles/modules/_wrapper.css";
 @import "../styles/modules/_main.css";
+@import "../styles/modules/_header.css";
+@import "../styles/modules/_footer.css";
+@import "../styles/modules/_nav.css";
