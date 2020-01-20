@@ -37,3 +37,32 @@
 	padding: 8px;
 	font-weight: 600;
 }
+
+@media (max-width: 700px) {
+	.about {
+		display: grid;
+		grid-template-areas:
+			"intro"
+			"content"
+			"skills";
+		margin-top: 1rem;
+	}
+
+	.about__headline {
+		grid-area: intro;
+	}
+
+	.about__text {
+		grid-area: content;
+	}
+
+	.main__skills {
+		grid-area: skills;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.about__skill {
+		padding: 6px;
+	}
+}

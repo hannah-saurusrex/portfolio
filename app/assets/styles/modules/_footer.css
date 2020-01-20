@@ -21,3 +21,9 @@ footer {
 	cursor: pointer;
 	fill: black;
 }
+
+@media (max-width: 700px) {
+	footer {
+		grid-area: footer;
+	}
+}

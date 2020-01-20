@@ -30,3 +30,27 @@
 	grid-row: 2 / 4;
 	max-width: 25rem;
 }
+
+@media (max-width: 700px) {
+	.main {
+		display: grid;
+		grid-template-areas:
+			"intro"
+			"content"
+			"photo"
+			"footer";
+	}
+
+	.main__headline {
+		grid-area: intro;
+	}
+
+	.main__text {
+		grid-area: content;
+		margin-bottom: 1.5rem;
+	}
+
+	.main__photo {
+		grid-area: photo;
+	}
+}
