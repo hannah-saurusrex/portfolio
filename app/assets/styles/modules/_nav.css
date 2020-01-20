@@ -35,7 +35,7 @@ button {
 }
 
 .closeNav {
-	margin-top: -15px;
+	margin: -15px;
 	border: none;
 	cursor: pointer;
 	outline: none;
@@ -51,29 +51,30 @@ button {
 	text-align: center;
 }
 
-.nav-link {
+.nav-link a {
 	text-transform: uppercase;
 	list-style: none;
 	font-size: 3rem;
 	font-weight: 600;
 	color: white;
-	padding: 10px 0;
+	text-decoration: none;
+	line-height: 4rem;
 	cursor: pointer;
 }
 /* 
-.nav-link:hover:after {
+.nav-link a:after:hover {
 	bottom: 0;
 	content: "";
 	display: block;
 	height: 5px;
 	left: 50%;
 	position: absolute;
-	background: black;
+	background: white;
 	transition: width 0.5s ease, background-color 0.5s ease, left 0.5s ease;
 	width: 0;
 }
 
-.nav-links:hover:after {
+.nav-link a:hover {
 	width: 100%;
 	left: 0;
 } */
