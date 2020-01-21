@@ -51,6 +51,10 @@ button {
 	text-align: center;
 }
 
+.box ul {
+	padding: 0;
+}
+
 .nav-link a {
 	text-transform: uppercase;
 	list-style: none;
@@ -78,3 +82,9 @@ button {
 	width: 100%;
 	left: 0;
 } */
+
+@media only screen and (min-width: 300px) and (max-width: 667px) {
+	.box ul {
+		padding: 0;
+	}
+}
