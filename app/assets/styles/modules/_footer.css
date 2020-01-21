@@ -25,5 +25,6 @@ footer {
 @media only screen and (min-width: 300px) and (max-width: 667px) {
 	footer {
 		grid-area: footer;
+		margin-top: 35px;
 	}
 }
