@@ -22,9 +22,10 @@ h6 {
 }
 
 body {
-	margin: 0 auto;
+	margin: 0;
 }
 
 a {
 	color: black;
+	text-decoration: none;
 }

@@ -1,0 +1,39 @@
+.work__wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+	margin: 30px;
+}
+
+.work {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px;
+	padding: 10px;
+}
+
+.work__link {
+	text-align: center;
+}
+
+.work__icon {
+	max-width: 300px;
+}
+
+.work__headline {
+	font-size: 1.75rem;
+	padding: 10px 0;
+}
+
+.work__description {
+	font-size: 1.125rem;
+	line-height: 1.65rem;
+	padding: 10px 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 667px) {
+	.work__wrapper {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
