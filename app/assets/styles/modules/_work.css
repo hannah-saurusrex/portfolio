@@ -16,13 +16,13 @@
 	text-align: center;
 }
 
-.work__icon {
-	max-width: 300px;
-}
-
 .work__headline {
 	font-size: 1.75rem;
 	padding: 10px 0;
+}
+
+.work__headline:hover {
+	color: firebrick;
 }
 
 .work__description {
