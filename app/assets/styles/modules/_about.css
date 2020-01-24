@@ -25,6 +25,10 @@
 	font-weight: 600;
 }
 
+.about__link:hover {
+	color: #f9ceb7;
+}
+
 .main__skills {
 	grid-area: skills;
 	display: grid;
