@@ -40,7 +40,7 @@
 @media only screen and (min-width: 300px) and (max-width: 667px) {
 	.about {
 		display: grid;
-		grid-template-columns: 350px;
+		grid-template-columns: 300px;
 		grid-template-areas:
 			"intro"
 			"content"

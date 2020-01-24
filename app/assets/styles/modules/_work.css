@@ -32,6 +32,10 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 667px) {
+	.work {
+		padding: 0;
+	}
+
 	.work__wrapper {
 		display: grid;
 		grid-template-columns: 1fr;
