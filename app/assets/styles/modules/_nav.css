@@ -8,21 +8,17 @@
 	overflow: scroll;
 	z-index: 1000;
 	text-align: center;
-	transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1),
-		-webkit-transform 0.3s cubic-bezier(0, 0.52, 0, 1);
 }
 
 #flyoutMenu.hide {
 	visibility: none;
 	display: none;
-	transform: translate3d(-100vw, 0, 0);
 }
 
 #flyoutMenu.show {
 	overflow: hidden;
 	display: block;
 	visibility: visible;
-	transform: translateZ(0);
 }
 
 button {
@@ -74,23 +70,6 @@ button {
 	color: #f9ceb7;
 	text-decoration: underline;
 }
-/* 
-.nav-link a:after:hover {
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 5px;
-	left: 50%;
-	position: absolute;
-	background: white;
-	transition: width 0.5s ease, background-color 0.5s ease, left 0.5s ease;
-	width: 0;
-}
-
-.nav-link a:hover {
-	width: 100%;
-	left: 0;
-} */
 
 @media only screen and (min-width: 300px) and (max-width: 667px) {
 	.box ul {
