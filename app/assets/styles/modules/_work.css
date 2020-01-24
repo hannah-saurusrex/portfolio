@@ -22,7 +22,8 @@
 }
 
 .work__headline:hover {
-	color: firebrick;
+	color: #f9ceb7;
+	text-decoration: underline;
 }
 
 .work__description {

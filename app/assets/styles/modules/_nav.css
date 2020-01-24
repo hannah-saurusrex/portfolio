@@ -43,6 +43,10 @@ button {
 	font-weight: 600;
 }
 
+.closeNav:hover {
+	color: #f9ceb7;
+}
+
 .box {
 	position: fixed;
 	top: 50%;
@@ -64,6 +68,11 @@ button {
 	text-decoration: none;
 	line-height: 4rem;
 	cursor: pointer;
+}
+
+.nav-link a:hover {
+	color: #f9ceb7;
+	text-decoration: underline;
 }
 /* 
 .nav-link a:after:hover {

@@ -22,6 +22,10 @@ footer {
 	fill: black;
 }
 
+.footer--contact__icon:hover {
+	color: #f9ceb7;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 667px) {
 	footer {
 		grid-area: footer;

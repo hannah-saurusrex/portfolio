@@ -12,10 +12,18 @@
 	cursor: pointer;
 }
 
+.logo__letter:hover {
+	color: #f9ceb7;
+}
+
 .logo__symbol {
 	position: absolute;
 	right: 5%;
 	top: 5%;
 	cursor: pointer;
 	font-size: 5rem;
+}
+
+.logo__symbol:hover {
+	color: #f9ceb7;
 }
