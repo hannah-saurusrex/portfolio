@@ -5,20 +5,19 @@
 	position: fixed;
 	top: 0;
 	left: 0;
+	transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
 	overflow: scroll;
 	z-index: 1000;
 	text-align: center;
 }
 
 #flyoutMenu.hide {
-	visibility: none;
-	display: none;
+	transform: translate3d(-100vw, 0, 0);
 }
 
 #flyoutMenu.show {
+	transform: translate3d(0vw, 0, 0);
 	overflow: hidden;
-	display: block;
-	visibility: visible;
 }
 
 button {
@@ -66,9 +65,31 @@ button {
 	cursor: pointer;
 }
 
-.nav-link a:hover {
-	color: #f9ceb7;
-	text-decoration: underline;
+.nav-link:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 5px;
+	left: 50%;
+	position: absolute;
+	background: salmon;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+a:hover:after {
+	width: 100%;
+	left: 0;
+}
+
+.closeNav {
+	margin-top: -15px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	font-size: 100px;
+	font-weight: 600;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 667px) {
