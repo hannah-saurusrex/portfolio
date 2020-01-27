@@ -65,22 +65,9 @@ button {
 	cursor: pointer;
 }
 
-.nav-link:after {
-	background: none repeat scroll 0 0 transparent;
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 5px;
-	left: 50%;
-	position: absolute;
-	background: salmon;
-	transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	width: 0;
-}
-
-a:hover:after {
-	width: 100%;
-	left: 0;
+.nav-link a:hover {
+	text-decoration: underline;
+	color: #f9ceb7;
 }
 
 .closeNav {
