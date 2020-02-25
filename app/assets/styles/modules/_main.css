@@ -32,9 +32,9 @@
 	max-width: 25rem;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 667px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
 	.main {
-		grid-template-columns: 300px;
+		grid-template-columns: 100%;
 		padding-left: 0;
 		display: grid;
 		grid-template-areas:
@@ -56,6 +56,6 @@
 
 	.main__photo {
 		grid-area: photo;
-		max-width: 300px;
+		max-width: 100%;
 	}
 }
