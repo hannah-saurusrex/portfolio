@@ -18,6 +18,11 @@
 	padding: 10px 0;
 }
 
+.main__headline-work {
+	color: #f9ceb7;
+	font-size: 1.8rem;
+}
+
 .main__text {
 	grid-area: content;
 	font-size: 1.125rem;
