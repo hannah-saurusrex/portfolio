@@ -24,6 +24,7 @@ footer {
 
 .footer--contact__icon:hover {
 	color: #f9ceb7;
+	transform: scale(1.2);
 }
 
 @media only screen and (min-width: 300px) and (max-width: 667px) {
